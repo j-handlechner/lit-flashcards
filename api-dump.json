@@ -1,0 +1,76 @@
+[
+  {
+    "choices": [
+      "To build native mobile apps",
+      "To create fast, lightweight web components",
+      "To manage server-side rendering"
+    ],
+    "correctIndex": 1,
+    "question": "What is the primary purpose of the Lit library?"
+  },
+  {
+    "choices": [
+      "@click=${this.handleClick}",
+      ":click='handleClick'",
+      "(click)=\"handleClick()\""
+    ],
+    "correctIndex": 0,
+    "question": "Which directive is used in Lit to bind event listeners in templates?"
+  },
+  {
+    "choices": ["disconnectedCallback", "firstUpdated", "shouldUpdate"],
+    "correctIndex": 1,
+    "question": "Which lifecycle method is called when a Lit component is first updated?"
+  },
+  {
+    "choices": ["@property()", "@reactive()", "@stateful()"],
+    "correctIndex": 0,
+    "question": "What decorator is used to define a reactive property in a Lit component?"
+  },
+  {
+    "choices": [
+      "Virtual DOM",
+      "DOM diffing with VNodes",
+      "Template caching and reactivity"
+    ],
+    "correctIndex": 2,
+    "question": "Which feature allows Lit to efficiently update only parts of the DOM?"
+  },
+  {
+    "choices": [".jsx", ".ts", ".vue"],
+    "correctIndex": 1,
+    "question": "What file extension is typically used for Lit components?"
+  },
+  {
+    "choices": [
+      "To declare HTML templates for the component",
+      "To mount the component to the DOM manually",
+      "To define routes for the component"
+    ],
+    "correctIndex": 0,
+    "question": "What is the purpose of the render() method in a Lit component?"
+  },
+  {
+    "choices": [
+      "Defines an immutable property",
+      "Marks a private reactive property internal to the component",
+      "Declares a public property"
+    ],
+    "correctIndex": 1,
+    "question": "What does the @state() decorator do?"
+  },
+  {
+    "choices": ["updated", "connectedCallback", "onCreate"],
+    "correctIndex": 2,
+    "question": "Which of these is NOT a valid lifecycle method in Lit?"
+  },
+  {
+    "choices": [
+      "It uses global CSS styles only",
+      "It scopes styles to components via Shadow DOM",
+      "It injects styles via JavaScript dynamically"
+    ],
+    "correctIndex": 1,
+    "question": "How does Lit handle styling by default?"
+  }
+]
