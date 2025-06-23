@@ -31,7 +31,7 @@ export class FlashcardApp extends LitElement {
       padding: 2rem;
       margin: auto;
 
-      min-height: 90svh;
+      min-height: 93svh;
       display: flex;
       flex-direction: column;
       justify-content: end;
