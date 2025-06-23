@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap");
+
+@import "./styles/fonts.css";
 @import "./styles/theme.css";
 @import "./styles/nav.css";
 
@@ -12,4 +15,10 @@ body {
   min-height: 100vh;
 
   transition: background 0.3s, color 0.3s;
+}
+
+h1 {
+  font-size: 1rem;
+  font-weight: 800;
+  text-transform: uppercase;
 }

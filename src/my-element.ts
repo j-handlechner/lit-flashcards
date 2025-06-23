@@ -3,6 +3,7 @@ import { customElement, property } from "lit/decorators.js";
 import litLogo from "./assets/lit.svg";
 import viteLogo from "/vite.svg";
 import "./components/theme-toggle";
+import "./components/flashcard-app";
 import { applySavedTheme } from "./utils/theme";
 
 applySavedTheme();

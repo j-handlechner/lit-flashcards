@@ -8,21 +8,25 @@ export class ThemeToggle extends LitElement {
     :host {
       display: block;
       text-align: right;
-      padding: 1rem;
     }
 
     button {
       padding: 0.75rem 1.5rem;
-      background: var(--card);
+      background: var(--bg);
       color: var(--text);
-      border: none;
-      border-radius: 6px;
+      border: 1px solid var(--text);
+      border-radius: 0px;
       cursor: pointer;
-      font-weight: 700;
+
+      font-family: "Doto", sans-serif;
+      font-size: 1rem;
+      font-weight: 900;
+      transition: background 0.3s, color 0.3s;
+      text-transform: uppercase;
     }
   `;
 
   render() {
-    return html`<button @click=${toggleTheme}>🌗 &nbsp; Toggle Theme</button>`;
+    return html`<button @click=${toggleTheme}>Toggle Theme</button>`;
   }
 }
