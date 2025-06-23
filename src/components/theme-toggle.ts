@@ -12,16 +12,17 @@ export class ThemeToggle extends LitElement {
     }
 
     button {
-      padding: 0.5rem 1rem;
+      padding: 0.75rem 1.5rem;
       background: var(--card);
       color: var(--text);
       border: none;
       border-radius: 6px;
       cursor: pointer;
+      font-weight: 700;
     }
   `;
 
   render() {
-    return html`<button @click=${toggleTheme}>🌗 Toggle Theme</button>`;
+    return html`<button @click=${toggleTheme}>🌗 &nbsp; Toggle Theme</button>`;
   }
 }

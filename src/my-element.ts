@@ -102,7 +102,6 @@ export class MyElement extends LitElement {
       font-family: inherit;
       background-color: #1a1a1a;
       cursor: pointer;
-      transition: border-color 0.25s;
     }
     button:hover {
       border-color: #646cff;

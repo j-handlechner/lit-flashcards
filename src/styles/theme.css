@@ -11,31 +11,37 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  box-sizing: border-box;
-
   --bg: #fff;
+  --bg-light: #f3f3f3;
   --text: #222;
   --card: #f0f0f0;
   --accent: #00c853;
   --wrong: #d50000;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: #121212;
+    --bg-light: #1f1f1f;
     --text: #eee;
-    --card: #1f1f1f;
+    --card: #373737;
   }
 }
 
 [data-theme="dark"] {
   --bg: #121212;
+  --bg-light: #1f1f1f;
   --text: #eee;
-  --card: #1f1f1f;
+  --card: #373737;
 }
 
 [data-theme="light"] {
   --bg: #ffffff;
+  --bg-light: #f3f3f3;
   --text: #111;
-  --card: #f3f3f3;
+  --card: #e2e2e2;
 }
