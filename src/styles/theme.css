@@ -1,0 +1,41 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  box-sizing: border-box;
+
+  --bg: #fff;
+  --text: #222;
+  --card: #f0f0f0;
+  --accent: #00c853;
+  --wrong: #d50000;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #121212;
+    --text: #eee;
+    --card: #1f1f1f;
+  }
+}
+
+[data-theme="dark"] {
+  --bg: #121212;
+  --text: #eee;
+  --card: #1f1f1f;
+}
+
+[data-theme="light"] {
+  --bg: #ffffff;
+  --text: #111;
+  --card: #f3f3f3;
+}
